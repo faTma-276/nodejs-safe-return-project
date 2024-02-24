@@ -3,7 +3,7 @@ import bcrypt from 'bcrypt'
 import { catchError } from '../../utils/catchAsyncErr.js'
 import { adminModel } from '../../../databases/models/admin.model.js'
 import jwt from 'jsonwebtoken'
-import { AppError } from '../../utils/AppError.js'
+import { AppError } from '../../utils/appError.js'
 
 
 //signUp 
