@@ -1,7 +1,7 @@
 import { citizenModel } from "../../../databases/models/citizen.model.js";
 import { missingmodel } from "../../../databases/models/missingreport.model.js";
 import { deleteOne, updateOne } from "../../handlers/factor.js";
-import { AppError } from "../../utils/AppError.js";
+import { AppError } from "../../utils/appError.js";
 import { catchError } from "../../utils/catchAsyncErr.js";
 
 //createMissingReport

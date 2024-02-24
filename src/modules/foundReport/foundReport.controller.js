@@ -1,6 +1,6 @@
 import { foundModel } from "../../../databases/models/foundreport.model.js";
 import { deleteOne} from "../../handlers/factor.js";
-import { AppError } from "../../utils/AppError.js";
+import { AppError } from "../../utils/appError.js";
 import { catchError } from "../../utils/catchAsyncErr.js";
 import cloudnairy from "../../utils/cloudnairy.js";
 

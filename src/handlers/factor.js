@@ -1,5 +1,5 @@
 
-import { AppError } from "../utils/AppError.js"
+import { AppError } from "../utils/appError.js"
 import { catchError } from "../utils/catchAsyncErr.js"
 
 
